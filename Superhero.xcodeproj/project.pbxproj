@@ -19,6 +19,11 @@
 		F55707ED27BFD163002EEF91 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55707EC27BFD163002EEF91 /* MainCoordinator.swift */; };
 		F55707EF27BFD1BC002EEF91 /* StartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */; };
 		F55707F127BFD1D4002EEF91 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55707F027BFD1D4002EEF91 /* StartViewController.swift */; };
+		F55707F427BFFAD3002EEF91 /* Profile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */; };
+		F55707F627C15BB1002EEF91 /* SupermanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */; };
+		F55707F827C15C03002EEF91 /* SuperwomanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */; };
+		F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */; };
+		F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		F55707EC27BFD163002EEF91 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartViewController.storyboard; sourceTree = "<group>"; };
 		F55707F027BFD1D4002EEF91 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F55707F327BFFAD3002EEF91 /* Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Profile.xcdatamodel; sourceTree = "<group>"; };
+		F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SupermanViewController.storyboard; sourceTree = "<group>"; };
+		F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SuperwomanViewController.storyboard; sourceTree = "<group>"; };
+		F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanViewController.swift; sourceTree = "<group>"; };
+		F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperwomanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,8 @@
 			children = (
 				F55707C827BFC831002EEF91 /* ViewController.swift */,
 				F55707F027BFD1D4002EEF91 /* StartViewController.swift */,
+				F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */,
+				F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +126,8 @@
 				F55707D227BFC832002EEF91 /* LaunchScreen.storyboard */,
 				F55707CA27BFC831002EEF91 /* Main.storyboard */,
 				F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */,
+				F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */,
+				F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +191,7 @@
 		F55707E627BFD0B7002EEF91 /* ProfileCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */,
 			);
 			path = ProfileCoreData;
 			sourceTree = "<group>";
@@ -250,7 +265,9 @@
 				F55707D427BFC832002EEF91 /* LaunchScreen.storyboard in Resources */,
 				F55707D127BFC832002EEF91 /* Assets.xcassets in Resources */,
 				F55707EF27BFD1BC002EEF91 /* StartViewController.storyboard in Resources */,
+				F55707F827C15C03002EEF91 /* SuperwomanViewController.storyboard in Resources */,
 				F55707CC27BFC831002EEF91 /* Main.storyboard in Resources */,
+				F55707F627C15BB1002EEF91 /* SupermanViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +280,15 @@
 			files = (
 				F55707C927BFC831002EEF91 /* ViewController.swift in Sources */,
 				F55707F127BFD1D4002EEF91 /* StartViewController.swift in Sources */,
+				F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */,
 				F55707ED27BFD163002EEF91 /* MainCoordinator.swift in Sources */,
 				F55707C527BFC831002EEF91 /* AppDelegate.swift in Sources */,
 				F55707E927BFD106002EEF91 /* Coordinator.swift in Sources */,
+				F55707F427BFFAD3002EEF91 /* Profile.xcdatamodeld in Sources */,
 				F55707C727BFC831002EEF91 /* SceneDelegate.swift in Sources */,
 				F55707CF27BFC831002EEF91 /* Superhero.xcdatamodeld in Sources */,
 				F55707EB27BFD121002EEF91 /* Storyboarded.swift in Sources */,
+				F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +517,16 @@
 			);
 			currentVersion = F55707CE27BFC831002EEF91 /* Superhero.xcdatamodel */;
 			path = Superhero.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F55707F327BFFAD3002EEF91 /* Profile.xcdatamodel */,
+			);
+			currentVersion = F55707F327BFFAD3002EEF91 /* Profile.xcdatamodel */;
+			path = Profile.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
