@@ -15,12 +15,23 @@ class MainCoordinator: Coordinator {
         self.navigationController = navigationController
     }
     
+    /// Запуск першого екрану
     func start() {
-        
         let vc = StartViewController.creareObject()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
-    
+    /// Кнопка Супермен
+    func openSupermanVC() {
+        let vc = SupermanViewController.creareObject()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
+    }
+    /// Кнопка Супервуман
+    func openSuperwomanVC() {
+        let vc = SuperwomanViewController.creareObject()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
+    }
     
 }

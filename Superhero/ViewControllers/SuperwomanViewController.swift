@@ -7,7 +7,9 @@
 
 import UIKit
 
-class SuperwomanViewController: UIViewController {
+class SuperwomanViewController: UIViewController, Storyboardeble {
+    
+    weak var coordinator: MainCoordinator?
     
     
     override func viewDidLoad() {

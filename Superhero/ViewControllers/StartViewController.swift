@@ -18,5 +18,11 @@ class StartViewController: UIViewController, Storyboardeble {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func openSupermanVC(_ sender: Any) {
+        coordinator?.openSupermanVC()
+    }
+    
+    @IBAction func openSupervomanVC(_ sender: Any) {
+        coordinator?.openSuperwomanVC()
+    }
 }

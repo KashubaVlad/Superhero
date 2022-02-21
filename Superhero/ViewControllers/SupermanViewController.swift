@@ -8,7 +8,9 @@
 import UIKit
 
 
-class SupermanViewController: UIViewController {
+class SupermanViewController: UIViewController, Storyboardeble {
+    
+    weak var coordinator: MainCoordinator?
     
     
     override func viewDidLoad() {

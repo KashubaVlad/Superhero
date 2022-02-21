@@ -16,14 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4pi-qY-hXE">
+                                <rect key="frame" x="-1" y="0.0" width="391" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 1" translatesAutoresizingMaskIntoConstraints="NO" id="yaC-9A-3dQ">
                                 <rect key="frame" x="-1" y="422" width="390" height="422"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4pi-qY-hXE">
-                                <rect key="frame" x="-1" y="0.0" width="391" height="433"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SuperM" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-qt-3S7">
+                                <rect key="frame" x="-1" y="-4" width="391" height="423"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="image">young-healthy-man-athlete-doing-exercises-pull-ups-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing 1 — копия</string>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="UW8-Y3-byf">
                                 <rect key="frame" x="0.0" y="292" width="390" height="100"/>
@@ -38,7 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="back_1" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-Ls-99O">
-                                <rect key="frame" x="-1" y="-4" width="390" height="430"/>
+                                <rect key="frame" x="0.0" y="-4" width="390" height="430"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="выберите героя" translatesAutoresizingMaskIntoConstraints="NO" id="OvV-ed-gPq">
@@ -57,6 +60,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="openSupermanVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5VD-rN-aL9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-5m-6Gb">
                                 <rect key="frame" x="123" y="607" width="144" height="44"/>
@@ -66,6 +72,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="openSupervomanVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Dvr-2g-DDN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -82,12 +91,10 @@
         <image name="Rectangle 2" width="375" height="91"/>
         <image name="Rectangle 3" width="375" height="91"/>
         <image name="SUPERHERO" width="205" height="26"/>
+        <image name="SuperM" width="375" height="406"/>
         <image name="back_1" width="375" height="406"/>
         <image name="back_2" width="375" height="406"/>
         <image name="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 1" width="375" height="406"/>
-        <image width="375" height="406">
-            <string key="name">young-healthy-man-athlete-doing-exercises-pull-ups-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing 1 — копия</string>
-        </image>
         <image name="выберите героя" width="123" height="17"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

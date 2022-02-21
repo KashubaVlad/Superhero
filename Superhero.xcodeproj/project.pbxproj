@@ -24,6 +24,9 @@
 		F55707F827C15C03002EEF91 /* SuperwomanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */; };
 		F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */; };
 		F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */; };
+		F59EBD7227C3B73B00F49FDA /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7127C3B73B00F49FDA /* ProfileManager.swift */; };
+		F59EBD7527C3BAAA00F49FDA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */; };
+		F59EBD7627C3BAAA00F49FDA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SuperwomanViewController.storyboard; sourceTree = "<group>"; };
 		F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanViewController.swift; sourceTree = "<group>"; };
 		F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperwomanViewController.swift; sourceTree = "<group>"; };
+		F59EBD7127C3B73B00F49FDA /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +129,8 @@
 		F55707DE27BFCFE6002EEF91 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F55707D227BFC832002EEF91 /* LaunchScreen.storyboard */,
 				F55707CA27BFC831002EEF91 /* Main.storyboard */,
+				F55707D227BFC832002EEF91 /* LaunchScreen.storyboard */,
 				F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */,
 				F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */,
 				F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */,
@@ -184,6 +190,7 @@
 		F55707E527BFD0A5002EEF91 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F59EBD7127C3B73B00F49FDA /* ProfileManager.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -192,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */,
+				F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */,
+				F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */,
 			);
 			path = ProfileCoreData;
 			sourceTree = "<group>";
@@ -279,15 +288,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55707C927BFC831002EEF91 /* ViewController.swift in Sources */,
+				F59EBD7527C3BAAA00F49FDA /* Profile+CoreDataClass.swift in Sources */,
 				F55707F127BFD1D4002EEF91 /* StartViewController.swift in Sources */,
 				F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */,
 				F55707ED27BFD163002EEF91 /* MainCoordinator.swift in Sources */,
 				F55707C527BFC831002EEF91 /* AppDelegate.swift in Sources */,
 				F55707E927BFD106002EEF91 /* Coordinator.swift in Sources */,
 				F55707F427BFFAD3002EEF91 /* Profile.xcdatamodeld in Sources */,
+				F59EBD7227C3B73B00F49FDA /* ProfileManager.swift in Sources */,
 				F55707C727BFC831002EEF91 /* SceneDelegate.swift in Sources */,
 				F55707CF27BFC831002EEF91 /* Superhero.xcdatamodeld in Sources */,
 				F55707EB27BFD121002EEF91 /* Storyboarded.swift in Sources */,
+				F59EBD7627C3BAAA00F49FDA /* Profile+CoreDataProperties.swift in Sources */,
 				F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

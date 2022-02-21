@@ -11,19 +11,18 @@
         <!--Superman View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="SuperwomanViewController" id="Y6W-OH-hqX" customClass="SupermanViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SupermanViewController" id="Y6W-OH-hqX" customClass="SupermanViewController" customModule="Superhero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="2022-02-19 19.49.44" translatesAutoresizingMaskIntoConstraints="NO" id="O0O-xg-8me">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyW-xB-Mdl">
                                 <rect key="frame" x="1" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="image">young-healthy-man-athlete-doing-exercises-pull-ups-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing 1</string>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="2022-02-19 19.49.44" translatesAutoresizingMaskIntoConstraints="NO" id="O0O-xg-8me">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 4" translatesAutoresizingMaskIntoConstraints="NO" id="sLH-Az-gLc">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
@@ -72,9 +71,6 @@
         <image name="Group 9" width="289" height="41"/>
         <image name="Rectangle 4" width="375" height="812"/>
         <image name="Superman" width="112" height="22"/>
-        <image width="375" height="812">
-            <string key="name">young-healthy-man-athlete-doing-exercises-pull-ups-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing 1</string>
-        </image>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
