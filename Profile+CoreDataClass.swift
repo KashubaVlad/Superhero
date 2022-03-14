@@ -5,7 +5,7 @@
 //  Created by Vlad on 21.02.2022.
 //
 //
-/*
+
 import Foundation
 import CoreData
 
@@ -13,4 +13,4 @@ import CoreData
 public class Profile: NSManagedObject {
 
 }
-*/
+

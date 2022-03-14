@@ -17,21 +17,24 @@ class MainCoordinator: Coordinator {
     
     /// Запуск першого екрану
     func start() {
-        let vc = StartViewController.creareObject()
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: false)
+        ProfileManager.sharedInstance.retriveProfile()
+        
+        if ProfileManager.sharedInstance.userProfile != nil {
+             homeVC()
+        } else {
+            let vc = StartViewController.creareObject()
+            vc.coordinator = self
+            navigationController.pushViewController(vc, animated: false)
+        }
     }
     /// Кнопка Супермен
-    func openSupermanVC() {
-        let vc = SupermanViewController.creareObject()
+    func homeVC() {
+        let vc = HomeViewController.creareObject()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }
-    /// Кнопка Супервуман
-    func openSuperwomanVC() {
-        let vc = SuperwomanViewController.creareObject()
-        vc.coordinator = self
-        navigationController.pushViewController(vc, animated: false)
+
+    func back() {
+            navigationController.popViewController(animated: true)
     }
-    
 }

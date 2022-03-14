@@ -20,13 +20,15 @@
 		F55707EF27BFD1BC002EEF91 /* StartViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */; };
 		F55707F127BFD1D4002EEF91 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55707F027BFD1D4002EEF91 /* StartViewController.swift */; };
 		F55707F427BFFAD3002EEF91 /* Profile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */; };
-		F55707F627C15BB1002EEF91 /* SupermanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */; };
-		F55707F827C15C03002EEF91 /* SuperwomanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */; };
-		F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */; };
-		F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */; };
+		F55707F627C15BB1002EEF91 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55707F527C15BB1002EEF91 /* HomeViewController.storyboard */; };
+		F5635A4A27C5203A002DD6A1 /* StartVievModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5635A4927C5203A002DD6A1 /* StartVievModel.swift */; };
+		F5635A4F27C6322A002DD6A1 /* a_saira.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5635A4D27C63229002DD6A1 /* a_saira.ttf */; };
+		F5635A5227C63798002DD6A1 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5635A5127C63798002DD6A1 /* Font.swift */; };
+		F572A4DE27C6DA02001D6D00 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F572A4DD27C6DA02001D6D00 /* HomeViewModel.swift */; };
+		F57E591F27C3E35B00A17D57 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E591D27C3E35B00A17D57 /* Profile+CoreDataClass.swift */; };
+		F57E592027C3E35B00A17D57 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E591E27C3E35B00A17D57 /* Profile+CoreDataProperties.swift */; };
+		F59EBD6B27C1A68C00F49FDA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD6A27C1A68C00F49FDA /* HomeViewController.swift */; };
 		F59EBD7227C3B73B00F49FDA /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7127C3B73B00F49FDA /* ProfileManager.swift */; };
-		F59EBD7527C3BAAA00F49FDA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */; };
-		F59EBD7627C3BAAA00F49FDA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,13 +47,15 @@
 		F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartViewController.storyboard; sourceTree = "<group>"; };
 		F55707F027BFD1D4002EEF91 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		F55707F327BFFAD3002EEF91 /* Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Profile.xcdatamodel; sourceTree = "<group>"; };
-		F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SupermanViewController.storyboard; sourceTree = "<group>"; };
-		F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SuperwomanViewController.storyboard; sourceTree = "<group>"; };
-		F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermanViewController.swift; sourceTree = "<group>"; };
-		F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperwomanViewController.swift; sourceTree = "<group>"; };
+		F55707F527C15BB1002EEF91 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		F5635A4927C5203A002DD6A1 /* StartVievModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVievModel.swift; sourceTree = "<group>"; };
+		F5635A4D27C63229002DD6A1 /* a_saira.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_saira.ttf; sourceTree = "<group>"; };
+		F5635A5127C63798002DD6A1 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		F572A4DD27C6DA02001D6D00 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F57E591D27C3E35B00A17D57 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F57E591E27C3E35B00A17D57 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F59EBD6A27C1A68C00F49FDA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F59EBD7127C3B73B00F49FDA /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
-		F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
-		F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				F55707DE27BFCFE6002EEF91 /* Views */,
 				F55707DD27BFCFD6002EEF91 /* ViewModels */,
 				F55707DC27BFCFBB002EEF91 /* ViewControllers */,
+				F5635A4B27C6314D002DD6A1 /* Fonts */,
 				F55707DB27BFCF9F002EEF91 /* Storyboard */,
 				F55707C427BFC831002EEF91 /* AppDelegate.swift */,
 				F55707C627BFC831002EEF91 /* SceneDelegate.swift */,
@@ -113,8 +118,7 @@
 			children = (
 				F55707C827BFC831002EEF91 /* ViewController.swift */,
 				F55707F027BFD1D4002EEF91 /* StartViewController.swift */,
-				F59EBD6A27C1A68C00F49FDA /* SupermanViewController.swift */,
-				F59EBD6C27C1A6A800F49FDA /* SuperwomanViewController.swift */,
+				F59EBD6A27C1A68C00F49FDA /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +126,8 @@
 		F55707DD27BFCFD6002EEF91 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F5635A4927C5203A002DD6A1 /* StartVievModel.swift */,
+				F572A4DD27C6DA02001D6D00 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -132,8 +138,7 @@
 				F55707CA27BFC831002EEF91 /* Main.storyboard */,
 				F55707D227BFC832002EEF91 /* LaunchScreen.storyboard */,
 				F55707EE27BFD1BC002EEF91 /* StartViewController.storyboard */,
-				F55707F527C15BB1002EEF91 /* SupermanViewController.storyboard */,
-				F55707F727C15C03002EEF91 /* SuperwomanViewController.storyboard */,
+				F55707F527C15BB1002EEF91 /* HomeViewController.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		F55707E227BFD04B002EEF91 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F5635A5027C63781002DD6A1 /* Fonts */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -198,9 +204,9 @@
 		F55707E627BFD0B7002EEF91 /* ProfileCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F57E591D27C3E35B00A17D57 /* Profile+CoreDataClass.swift */,
+				F57E591E27C3E35B00A17D57 /* Profile+CoreDataProperties.swift */,
 				F55707F227BFFAD3002EEF91 /* Profile.xcdatamodeld */,
-				F59EBD7327C3BAAA00F49FDA /* Profile+CoreDataClass.swift */,
-				F59EBD7427C3BAAA00F49FDA /* Profile+CoreDataProperties.swift */,
 			);
 			path = ProfileCoreData;
 			sourceTree = "<group>";
@@ -211,6 +217,22 @@
 				F55707EC27BFD163002EEF91 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F5635A4B27C6314D002DD6A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5635A4D27C63229002DD6A1 /* a_saira.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F5635A5027C63781002DD6A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5635A5127C63798002DD6A1 /* Font.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +295,10 @@
 			files = (
 				F55707D427BFC832002EEF91 /* LaunchScreen.storyboard in Resources */,
 				F55707D127BFC832002EEF91 /* Assets.xcassets in Resources */,
+				F5635A4F27C6322A002DD6A1 /* a_saira.ttf in Resources */,
 				F55707EF27BFD1BC002EEF91 /* StartViewController.storyboard in Resources */,
-				F55707F827C15C03002EEF91 /* SuperwomanViewController.storyboard in Resources */,
 				F55707CC27BFC831002EEF91 /* Main.storyboard in Resources */,
-				F55707F627C15BB1002EEF91 /* SupermanViewController.storyboard in Resources */,
+				F55707F627C15BB1002EEF91 /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5635A4A27C5203A002DD6A1 /* StartVievModel.swift in Sources */,
 				F55707C927BFC831002EEF91 /* ViewController.swift in Sources */,
-				F59EBD7527C3BAAA00F49FDA /* Profile+CoreDataClass.swift in Sources */,
+				F5635A5227C63798002DD6A1 /* Font.swift in Sources */,
+				F572A4DE27C6DA02001D6D00 /* HomeViewModel.swift in Sources */,
+				F57E591F27C3E35B00A17D57 /* Profile+CoreDataClass.swift in Sources */,
 				F55707F127BFD1D4002EEF91 /* StartViewController.swift in Sources */,
-				F59EBD6D27C1A6A800F49FDA /* SuperwomanViewController.swift in Sources */,
 				F55707ED27BFD163002EEF91 /* MainCoordinator.swift in Sources */,
 				F55707C527BFC831002EEF91 /* AppDelegate.swift in Sources */,
 				F55707E927BFD106002EEF91 /* Coordinator.swift in Sources */,
@@ -299,8 +323,8 @@
 				F55707C727BFC831002EEF91 /* SceneDelegate.swift in Sources */,
 				F55707CF27BFC831002EEF91 /* Superhero.xcdatamodeld in Sources */,
 				F55707EB27BFD121002EEF91 /* Storyboarded.swift in Sources */,
-				F59EBD7627C3BAAA00F49FDA /* Profile+CoreDataProperties.swift in Sources */,
-				F59EBD6B27C1A68C00F49FDA /* SupermanViewController.swift in Sources */,
+				F57E592027C3E35B00A17D57 /* Profile+CoreDataProperties.swift in Sources */,
+				F59EBD6B27C1A68C00F49FDA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

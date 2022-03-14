@@ -17,34 +17,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="ZtV-WV-Bru">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="5ML-ze-l7S">
-                                <rect key="frame" x="0.0" y="340" width="414" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="nsi-hb-5TD">
-                                <rect key="frame" x="0.0" y="439" width="407" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SUPERHERO" translatesAutoresizingMaskIntoConstraints="NO" id="b9e-aC-D6U">
-                                <rect key="frame" x="92" y="427" width="207" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SUPERHERO" translatesAutoresizingMaskIntoConstraints="NO" id="b9e-aC-D6U">
+                                <rect key="frame" x="84" y="408" width="222" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="3w9-l1-C77"/>
+                                    <constraint firstAttribute="width" constant="207" id="Lh7-eQ-bqE"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b9e-aC-D6U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="364" id="7Rw-xP-OD4"/>
+                            <constraint firstItem="b9e-aC-D6U" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8c9-cV-0xE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b9e-aC-D6U" secondAttribute="trailing" constant="84" id="9bw-3s-Ogw"/>
+                            <constraint firstItem="b9e-aC-D6U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="qxE-W6-lBC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b9e-aC-D6U" secondAttribute="bottom" constant="405" id="wnC-FX-9aj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Rectangle 2" width="375" height="91"/>
-        <image name="Rectangle 3" width="375" height="91"/>
         <image name="SUPERHERO" width="205" height="26"/>
         <image name="people" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">

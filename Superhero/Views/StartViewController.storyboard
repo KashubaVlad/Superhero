@@ -16,70 +16,137 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4pi-qY-hXE">
-                                <rect key="frame" x="-1" y="0.0" width="391" height="433"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 1" translatesAutoresizingMaskIntoConstraints="NO" id="yaC-9A-3dQ">
-                                <rect key="frame" x="-1" y="422" width="390" height="422"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SuperM" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-qt-3S7">
-                                <rect key="frame" x="-1" y="-4" width="391" height="423"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="UW8-Y3-byf">
-                                <rect key="frame" x="0.0" y="292" width="390" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Rectangle 2" translatesAutoresizingMaskIntoConstraints="NO" id="pnK-VI-1ji">
-                                <rect key="frame" x="0.0" y="385" width="390" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="back_2" translatesAutoresizingMaskIntoConstraints="NO" id="HES-qq-p7J">
-                                <rect key="frame" x="0.0" y="418" width="390" height="422"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="back_1" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-Ls-99O">
-                                <rect key="frame" x="0.0" y="-4" width="390" height="430"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="выберите героя" translatesAutoresizingMaskIntoConstraints="NO" id="OvV-ed-gPq">
-                                <rect key="frame" x="132" y="422" width="125" height="25"/>
+                                <rect key="frame" x="132" y="422" width="126" height="17.333333333333314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="SUPERHERO" translatesAutoresizingMaskIntoConstraints="NO" id="VtW-f2-unB">
                                 <rect key="frame" x="85" y="367" width="207" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC4-G3-xRf">
-                                <rect key="frame" x="123" y="193" width="144" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="back_2" translatesAutoresizingMaskIntoConstraints="NO" id="HES-qq-p7J">
+                                <rect key="frame" x="0.0" y="422" width="390" height="422"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="back_1" translatesAutoresizingMaskIntoConstraints="NO" id="5eY-Ls-99O">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 2" translatesAutoresizingMaskIntoConstraints="NO" id="oli-n2-Scq">
+                                <rect key="frame" x="0.0" y="-10" width="390" height="428"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 2" translatesAutoresizingMaskIntoConstraints="NO" id="Nqh-Ee-hDR">
+                                <rect key="frame" x="0.0" y="421" width="390" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Rectangle 22" translatesAutoresizingMaskIntoConstraints="NO" id="Abv-oR-5iS">
+                                <rect key="frame" x="0.0" y="422" width="375" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="8w1-0H-wYE"/>
+                                    <constraint firstAttribute="width" constant="375" id="AyJ-av-vpB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC4-G3-xRf">
+                                <rect key="frame" x="117" y="225" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="CPc-um-P50"/>
+                                    <constraint firstAttribute="height" constant="44" id="QIF-BF-TuF"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SUPERMAN" cornerStyle="capsule" buttonSize="small">
+                                <buttonConfiguration key="configuration" style="filled" title="button" cornerStyle="capsule" buttonSize="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="openSupermanVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5VD-rN-aL9"/>
+                                    <action selector="didButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cV1-YR-y6r"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-5m-6Gb">
-                                <rect key="frame" x="123" y="607" width="144" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="SUPERGIRL" cornerStyle="capsule" buttonSize="small">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Rectangle 33" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-8A-4XQ">
+                                <rect key="frame" x="0.0" y="332" width="375" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="AUg-s8-fxw"/>
+                                    <constraint firstAttribute="width" constant="375" id="eLS-V0-yKF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aP8-5m-6Gb">
+                                <rect key="frame" x="124" y="585" width="144" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="iV0-Ai-HHO"/>
+                                    <constraint firstAttribute="width" constant="144" id="lGK-kO-t1M"/>
+                                </constraints>
+                                <state key="normal" title="Button" backgroundImage="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 2"/>
+                                <buttonConfiguration key="configuration" style="filled" title="button" cornerStyle="capsule" buttonSize="small">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="openSupervomanVC:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Dvr-2g-DDN"/>
+                                    <action selector="didButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="U7Z-5v-KDk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chooseHerroTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVX-QJ-bO8">
+                                <rect key="frame" x="136" y="455.66666666666669" width="103" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="TXo-ak-NwD"/>
+                                    <constraint firstAttribute="width" constant="103" id="soi-f3-GRL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SuperherroLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATO-Mk-Lel">
+                                <rect key="frame" x="84" y="400.66666666666669" width="207" height="43"/>
+                                <color key="tintColor" red="1" green="0.85981774330000005" blue="0.39136728640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="1x8-km-NuR"/>
+                                    <constraint firstAttribute="width" constant="207" id="ZMK-E9-OU9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.85981774330000005" blue="0.39136728640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="aP8-5m-6Gb" secondAttribute="trailing" constant="116" id="0Dr-rc-yak"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HVX-QJ-bO8" secondAttribute="trailing" constant="136" id="1Lh-QH-Vrx"/>
+                            <constraint firstItem="HSy-8A-4XQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="1gh-Fl-w4L"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Abv-oR-5iS" secondAttribute="trailing" id="2rm-BY-cIF"/>
+                            <constraint firstItem="FC4-G3-xRf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="181" id="437-Qb-90g"/>
+                            <constraint firstItem="HVX-QJ-bO8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="136" id="4qN-RN-Cza"/>
+                            <constraint firstItem="aP8-5m-6Gb" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="6DV-VH-GVE"/>
+                            <constraint firstItem="FC4-G3-xRf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="116" id="AXl-Hy-00X"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HSy-8A-4XQ" secondAttribute="trailing" id="AY2-ZP-V3q"/>
+                            <constraint firstItem="ATO-Mk-Lel" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ExQ-b7-slq"/>
+                            <constraint firstItem="HVX-QJ-bO8" firstAttribute="top" secondItem="ATO-Mk-Lel" secondAttribute="bottom" constant="12" id="F18-50-rHQ"/>
+                            <constraint firstItem="FC4-G3-xRf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="JQg-Ua-WEl"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ATO-Mk-Lel" secondAttribute="trailing" constant="84" id="Jgt-S5-d1C"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="aP8-5m-6Gb" secondAttribute="bottom" constant="181" id="KIx-nj-m5R"/>
+                            <constraint firstItem="aP8-5m-6Gb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="116" id="LiI-G8-FXm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ATO-Mk-Lel" secondAttribute="trailing" constant="84" id="OIi-sw-auX"/>
+                            <constraint firstAttribute="bottom" secondItem="Abv-oR-5iS" secondAttribute="bottom" constant="331" id="Puf-xK-XLd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="FC4-G3-xRf" secondAttribute="trailing" constant="115" id="RTb-aw-7gj"/>
+                            <constraint firstItem="Abv-oR-5iS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="UCD-xP-a0w"/>
+                            <constraint firstItem="HSy-8A-4XQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Xhg-Bd-XGC"/>
+                            <constraint firstItem="FC4-G3-xRf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Ykd-fl-VfI"/>
+                            <constraint firstItem="ATO-Mk-Lel" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="htf-Vn-eJg"/>
+                            <constraint firstItem="HVX-QJ-bO8" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="i0U-WR-QUu"/>
+                            <constraint firstItem="HSy-8A-4XQ" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="288" id="jjd-zy-9Hq"/>
+                            <constraint firstItem="Abv-oR-5iS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="mrz-ex-sGB"/>
+                            <constraint firstItem="HSy-8A-4XQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="whq-Ga-6d2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chooseHerroTitle" destination="HVX-QJ-bO8" id="jbI-jI-s8H"/>
+                        <outlet property="femaleButton" destination="aP8-5m-6Gb" id="vFV-TK-NIf"/>
+                        <outlet property="maleButton" destination="FC4-G3-xRf" id="dEQ-50-cOO"/>
+                        <outlet property="rect2" destination="Abv-oR-5iS" id="dQF-J7-2tP"/>
+                        <outlet property="rect3" destination="HSy-8A-4XQ" id="z7V-PZ-Om7"/>
+                        <outlet property="supergirlBackgroundImg" destination="HES-qq-p7J" id="1Rj-Pf-1Db"/>
+                        <outlet property="superherroTitle" destination="ATO-Mk-Lel" id="3id-Un-XHc"/>
+                        <outlet property="supermanBackgroundImg" destination="5eY-Ls-99O" id="aWP-mO-UtB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,13 +155,12 @@
     </scenes>
     <color key="tintColor" red="1" green="0.85981774330000005" blue="0.39136728640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="Rectangle 2" width="375" height="91"/>
-        <image name="Rectangle 3" width="375" height="91"/>
+        <image name="Rectangle 22" width="375" height="91"/>
+        <image name="Rectangle 33" width="375" height="91"/>
         <image name="SUPERHERO" width="205" height="26"/>
-        <image name="SuperM" width="375" height="406"/>
         <image name="back_1" width="375" height="406"/>
         <image name="back_2" width="375" height="406"/>
-        <image name="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 1" width="375" height="406"/>
+        <image name="female-athlete-exercise-with-jump-rope-sport-gym-active-woman-workout-fitness-club 2" width="375" height="406"/>
         <image name="выберите героя" width="123" height="17"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
